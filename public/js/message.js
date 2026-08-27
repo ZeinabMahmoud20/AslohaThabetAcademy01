@@ -1,0 +1,9 @@
+const countTime = document.getElementById("countTime");
+const countDown = setInterval(function () {
+   countTime.innerHTML--;
+   if(countTime.innerText == 0) {
+     clearInterval(countDown)
+    open('/','_self')
+    // window.location.href = 'route("/")';
+   }
+}, 1000);

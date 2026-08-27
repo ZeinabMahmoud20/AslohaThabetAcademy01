@@ -1,0 +1,56 @@
+/* --------------- Start Global --------------- */
+::-webkit-scrollbar {
+    width: 10px;
+ }
+ ::-webkit-scrollbar-track {
+    background-color: #ccc;
+ }
+ ::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+ }
+ :root {
+    --main-color: #092f48;
+    --color-white: #ffffff;
+    --color-active: #062133;
+ }
+ body {
+    font-family: "Tajawal", sans-serif;
+ }
+ .bg-main {
+    background-color: var(--main-color);
+ }
+ .custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }
+ /* --------------- Start Aside --------------- */
+ aside .list-group {
+    --bs-list-group-color: #ffffff;
+    --bs-list-group-active-color: #000;
+    --bs-list-group-active-bg: #fff;
+    --bs-list-group-action-hover-bg: #f8f9fa48;
+    --bs-list-group-active-border-color: none;
+    --bs-list-group-bg: none;
+    --bs-list-group-border-color: none;
+    --bs-list-group-border-radius: 0;
+    font-weight: 700;
+    font-size: .85rem;
+    padding: 2rem .7rem 2rem 0;
+ }
+ aside .list-group a {
+    display: block;
+ }
+ /* --------------- Start Users --------------- */
+ .head-content {
+    height: calc(100vh - 10%);
+ }
+ .table-responsive {
+    height: calc(100vh - 50%);
+ }
+  i {
+    cursor: pointer;
+    transition: color .3s;
+ }
+  i:hover {
+    color: #062133 !important;
+ }
+ 
